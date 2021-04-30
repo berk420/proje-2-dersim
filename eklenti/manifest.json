@@ -1,0 +1,12 @@
+{
+  "name": "Search",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Search",
+  "browser_action": {
+    "default_icon": "search.png",
+    "default_popup": "popup.html"
+  }
+}
+//kaynak:https://stackoverflow.com/questions/17758270/creating-a-search-bar-in-a-chrome-extension-that-will-open-in-a-new-tab
+
