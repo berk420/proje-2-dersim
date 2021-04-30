@@ -16,3 +16,10 @@ sonrasında 3.aşmada olan python koduna o text dosyasında ki kullanıcın girm
 Projenin taslak hali bittikten sonra son aşamada olan python kodlarını daha performanslı hale getirebilmek için farklı yollar denenecek ve "nerede", "ne kadar" gibi sorulara cevap verebiliri hale gelecek.
 
 Proje tamamlandığı zaman kullanıcı cevabının kısa olduğunu düşündüğü sorularını eklentide ki arama kısmına yazarak anında bildirim olarak cevabını alabilecek.
+
+not:Kodların çalışabilmesi için aşağıdaki modülleri yüklmeniz gerekiyor.
+import re
+import requests
+from bs4 import BeautifulSoup
+from flashtext import KeywordProcessor
+from googlesearch import search
