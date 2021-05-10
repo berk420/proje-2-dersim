@@ -1,0 +1,11 @@
+{
+"name" : "hızlı veri çek",
+"version" : "1.0",
+"manifest_version" : 2,
+"description" : "Bu benim ilk eklentim.",
+"browser_action" : {
+                    
+                    "default_popup" : "index.html"
+                   },
+"background" : {"scripts" :["robothaber.js"]}
+}
