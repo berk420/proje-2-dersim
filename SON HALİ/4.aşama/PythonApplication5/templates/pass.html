@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+    <noscript id="deger">{{n}}</noscript>
+    <p id="result"></p>
+
+    <script>
+        printScreen();
+        function printScreen(){
+        	var text = document.getElementById('deger').textContent;
+
+        	var arrlist=text.split("$");
+
+            var i;
+            var txt=" ";
+            for (i = 0; i < arrlist.length; i++) {
+
+                 txt += arrlist[i] + "<br>";
+
+                 if (arrlist[i]==arrlist[i+1] || arrlist[i]==arrlist[i+2]) {i=5;}// aynı satırları ekrana yazdırmadık
+
+
+                 
+
+                 if (i==5) {break;}//ilk 5 satırı alıyor
+
+            }
+
+            document.getElementById('result').innerHTML=txt;
+
+
+        }
+        
+
+
+    </script>
+
+
+</body>
+</html>
